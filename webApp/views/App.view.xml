@@ -1,0 +1,18 @@
+<mvc:View
+	displayBlock="true"
+	xmlns="sap.m" 
+	xmlns:mvc="sap.ui.core.mvc"
+>
+	<Carousel>
+		<pages>
+			<Image
+				src="https://s00.yaplakal.com/pics/pics_original/7/2/7/12676727.jpg"
+				height="600px"
+			/>
+			<Image
+				src="https://i.pinimg.com/originals/89/a5/3a/89a53a439d65e1d8ddffd1f1c5f67d36.jpg"
+				height="600px"
+			/>
+		</pages>
+	</Carousel> 
+</mvc:View>
