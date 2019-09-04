@@ -45,6 +45,12 @@
 		"contentDensities": {
 			"compact": true,
 			"cozy": true
+		},
+		"models": {
+			"helloPanel": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "models/HelloPanel.json"
+			}
 		}
 	}
 }
