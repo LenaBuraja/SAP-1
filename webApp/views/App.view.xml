@@ -14,6 +14,7 @@
 					<IconTabBar
 						id="idTopLevelIconTabBar"
 						class="sapUiResponsiveContentPadding"
+						selectedKey="db"
 					>
 						<items>
 							<IconTabFilter id="start" text="{i18n>gettingStartedFilter}">
@@ -90,8 +91,25 @@
 									/>
 								</Toolbar>
 							</IconTabFilter>
-							<IconTabFilter id="second" text="{i18n>gettingSecondFilter}"> 
-							</IconTabFilter>
+							<IconTabFilter
+								text="{i18n>dataBindingFilter}"
+								key="db"
+							>
+								<content>
+									<List
+										headerText="{i18n>prtnerListTitle}"
+										items="{/BusinessPartnerSet}"
+									>
+										<items>
+											<ObjectListItem
+												title="{CompanyName}"
+												number="{PhoneNumber}"
+												intro="{BusinessPartnerID}"
+											/>
+										</items>
+									</List>
+								</content>
+							</IconTabFilter> 
 						</items>
 					</IconTabBar>
 				</content>
