@@ -4,6 +4,7 @@
 		"_version": "1.3.0",
 		"id": "SAP-1.webApp",
 		"type": "application",
+		"i18n": "i18n/i18n.properties",
 		"title": "{{appTitle}}",
 		"description": "{{appDescription}}",
 		"applicationVersion": {
@@ -47,6 +48,12 @@
 			"cozy": true
 		},
 		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "SAP-1.webApp.i18n.i18n"
+				}
+			}, 
 			"helloPanel": {
 				"type": "sap.ui.model.json.JSONModel",
 				"uri": "models/HelloPanel.json"
