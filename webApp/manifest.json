@@ -57,7 +57,11 @@
 			"helloPanel": {
 				"type": "sap.ui.model.json.JSONModel",
 				"uri": "models/HelloPanel.json"
-			}
+			},
+			"address": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "models/Address.json"
+			} 
 		}
 	}
 }
