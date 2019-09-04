@@ -79,9 +79,11 @@
 									<Button
 										text="{i18n>layoutPublishButton}"
 										type="Accept"
+										icon="sap-icon://outbox"
 									/>
 									<Button
 										text="{i18n>layoutDraftButton}"
+										icon="sap-icon://save"
 									/>
 								</Toolbar>
 							</IconTabFilter>
