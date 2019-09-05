@@ -55,7 +55,7 @@
 									id="simpleFormChange"
 									title="Address"
 									editable="true"
-									class="editableForm sapUiSmallMarginTopBottom"
+									class="editableForm"
 								>
 									<f:content>
 										<Label text="{i18n>layoutFormName}"/>
