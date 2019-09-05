@@ -97,14 +97,14 @@
 							>
 								<content>
 									<List
-										headerText="{i18n>prtnerListTitle}"
-										items="{/BusinessPartnerSet}"
+										headerText="{i18n>productListTitle}"
+										items="{/ProductSet}"
 									>
 										<items>
 											<ObjectListItem
-												title="{CompanyName}"
-												number="{PhoneNumber}"
-												intro="{BusinessPartnerID}"
+												title="{Name}"
+												number="{Price}"
+												intro="{ProductID}"
 											/>
 										</items>
 									</List>
