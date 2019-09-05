@@ -1,11 +1,13 @@
 sap.ui.define(
 	[
 		"sap/ui/core/mvc/Controller",
-		"sap/m/MessageBox"
+		"sap/m/MessageBox",
+		"SAP-1/webApp/models/formatter"
 	],
-	function (Controller, MessageBox) {
+	function (Controller, MessageBox, formatter) {
 		"use strict";
 		return Controller.extend("SAP-1.webApp.controllers.App", {
+			formatter : formatter,
 			onShowHello : function () {
 				var oBundle = this.getView().getModel("i18n").getResourceBundle();
 				var sRecipient = this.getView().getModel("helloPanel").getProperty("/recipient/name");

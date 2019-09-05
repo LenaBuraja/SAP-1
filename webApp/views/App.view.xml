@@ -104,8 +104,21 @@
 											<ObjectListItem
 												title="{Name}"
 												number="{Price}"
+												numberState="{= ${Price} > 400 ? 'Error' : 'Success'}"
 												intro="{ProductID}"
-											/>
+											>
+												<firstStatus>
+													<ObjectStatus
+														text="{
+															parts: [
+																{path: 'WeightUnit'},
+																{path: 'WeightMeasure'}
+															],
+															formatter : '.formatter.delivery'
+														}"
+													/>
+													</firstStatus> 	
+											</ObjectListItem>
 										</items>
 									</List>
 								</content>
