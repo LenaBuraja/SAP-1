@@ -110,6 +110,9 @@
 												group : true
 											}
 										}"
+										growing="true"
+										growingThreshold="5"
+										growingScrollToLoad="true"
 									>
 										<headerToolbar>
 											<Toolbar>
@@ -134,6 +137,8 @@
 												numberUnit="{CurrencyCode}"
 												numberState="{= ${Price} > 500 ? 'Error' : 'Success'}"
 												intro="{ProductID}"
+												press="onItemSelected"
+												type="Active"
 											>
 												<firstStatus>
 													<ObjectStatus
