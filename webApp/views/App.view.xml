@@ -102,9 +102,16 @@
 							>
 								<content>
 									<List
-										headerText="{i18n>productListTitle}"
+										id="productsList"
 										items="{/ProductSet}"
 									>
+										<headerToolbar>
+											<Toolbar>
+												<Title text="{i18n>productListTitle}"/>
+												<ToolbarSpacer/>
+												<SearchField width="50%" search="onFilterProducts"/>
+											</Toolbar>
+										</headerToolbar>
 										<items>
 											<ObjectListItem
 												title="{Name}"
