@@ -112,7 +112,7 @@
 										}"
 										growing="true"
 										growingThreshold="5"
-										growingScrollToLoad="true"
+										growingScrollToLoad="false"
 									>
 										<headerToolbar>
 											<Toolbar>
